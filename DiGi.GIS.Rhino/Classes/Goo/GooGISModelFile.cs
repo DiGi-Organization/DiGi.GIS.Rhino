@@ -39,7 +39,7 @@ namespace DiGi.GIS.Rhino.Classes
     /// <summary>
     /// Represents a persistent Grasshopper parameter used to handle and store <see cref="GooGISModelFile"/> objects.
     /// </summary>
-    public class GooGISModelFileParam : GooPresistentParam<GooGISModelFile, GIS.Classes.GISModelFile>
+    public class GooGISModelFileParam : GooPersistentParam<GooGISModelFile, GIS.Classes.GISModelFile>
     {
         /// <summary>
         /// Gets the unique global identifier for the GIS model file component.

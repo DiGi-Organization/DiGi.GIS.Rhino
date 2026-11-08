@@ -39,7 +39,7 @@ namespace DiGi.GIS.Rhino.Classes
     /// <summary>
     /// Represents a Grasshopper parameter used to handle and persist <see cref="GooAdministrativeAreal2D"/> objects.
     /// </summary>
-    public class GooAdministrativeAreal2DParam : GooPresistentParam<GooAdministrativeAreal2D, GIS.Classes.AdministrativeAreal2D>
+    public class GooAdministrativeAreal2DParam : GooPersistentParam<GooAdministrativeAreal2D, GIS.Classes.AdministrativeAreal2D>
     {
         /// <summary>
         /// Gets the unique global identifier for the component.

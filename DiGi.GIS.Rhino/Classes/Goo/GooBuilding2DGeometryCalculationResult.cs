@@ -39,7 +39,7 @@ namespace DiGi.GIS.Rhino.Classes
     /// <summary>
     /// Represents a persistent Grasshopper parameter for handling building 2D geometry calculation results.
     /// </summary>
-    public class GooBuilding2DGeometryCalculationResultParam : GooPresistentParam<GooBuilding2DGeometryCalculationResult, GIS.Classes.Building2DGeometryCalculationResult>
+    public class GooBuilding2DGeometryCalculationResultParam : GooPersistentParam<GooBuilding2DGeometryCalculationResult, GIS.Classes.Building2DGeometryCalculationResult>
     {
         /// <summary>
         /// Gets the unique global identifier of the component parameter.
